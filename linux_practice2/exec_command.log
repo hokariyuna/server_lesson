@@ -1,0 +1,320 @@
+   32  touch test1/index.php
+   33  ls test1
+   34  cd /home/test1 && ls
+   35  cd /home/test1
+   36  cp index.php copy.php
+   37  ls
+   38  cd /home
+   39  ls
+   40  cp -r test1 test4
+   41  ls
+   42  ls�test4
+   43  ls test4
+   44  cd /home
+   45  mv test2/test3 test3
+   46  ls
+   47  cd /home
+   48  mc test4 test1_copy
+   49  mv test4 test1_copy
+   50  ls
+   51  cd /home/test1
+   52  ls
+   53  ls test1
+   54  cd /home
+   55  ls test1
+   56  rm test1/copy.php
+   57  ls test1
+   58  cd /home
+   59  rm -r test3
+   60  ls
+   61  cd /home
+   62  rm test1_copy/*.php
+   63  ls test1_copy
+   64  ls
+   65  ls test1
+   66  ls test2
+   67  cat README.md
+   68  cat README.md
+   69  ls /
+   70  cat README.md
+   71  cd /home
+   72  echo '# Hello World' > README.md
+   73  cat README.md
+   74  echo 'Server Lesson' > README.md
+   75  cat README.md
+   76  echo '# Server Lesson' > README.md
+   77  cat README.md
+   78  cd /home
+   79  echo 'Linux Practice' >> README.md
+   80  echo '-----------------' >> README.md
+   81  cat README.md
+   82  cd /home
+   83  vi README.md
+   84  cd /root
+   85  mkdir server_lesson && cd server_lesson
+   86  yum update -y && yum -y install git
+   87  git init
+   88  git version
+   89  git init
+   90  touch first.txt
+   91  ls
+   92  mkdir -p linux_practice1/public
+   93  ls
+   94  cd linux_practice1/public
+   95  touch index.php
+   96  ls
+   97  git status
+   98  git add .
+   99  git status
+  100  git commit -m 'server_lesson/linux_practice1 ディレクトリ以下に public というディレクトリを作成後、その下に index.php ファイルを作成
+\C
+
+\C
+
+
+
+\c
+
+git status
+cat README.md
+\c
+
+
+
+exit
+
+
+ls
+  101  git status
+  102  git commit -m'publicディレクトリにindex.php�
+ファイルを作成'
+  103  git status
+  104  git commit -m�'indpublicににindex.phpを作成'
+  105  git config --global user.email"hokari3156@gmail.com"
+  106  git config --global user.name "hokariyuna"
+  107  git commit -m�'indublicににindex.phpを作成'
+  108  cd /root/server_lesson
+  109  git status
+  110  git commit -m�'indblic��'public配下にindex.phpを�を作成'
+  111  git commit -m 'public配下にindex.phpを作成'
+  112  git config --global user.email "hokari3156@gmail.com" git config --global user.name "hokariyuna"
+  113  git commit -m 'public配下にindex.phpを作成'
+  114  git config --global user.email "hokari3156@gmail.com" git config --global user.name "hokariyuna"
+  115  git commit -m 'public配下にindex.php�をを作成'
+  116  git config --global user.email "hokari3156@gmail.com" git config --global user.name "hokariyuna"
+  117  git remote add origin https://github.com/hokariyuna/server_lesson.git
+  118  git remote -v
+  119  git status
+  120  git commit -m'publicにindex.phpを追加'
+  121  git config --global user.email "hokari3156@gmail.com" git config --global user.name "hokariyuna"
+  122  git git commit -m'pub icにindex.phpを追加'
+  123  git commit -m 'indepublicにindex.phpを追加'
+  124  git config --global user.email "hokari3156@gmail.com"
+  125  git config --global user.name "hokariyuna"
+  126  git commit -m 'publicにindex.phpを追加'
+  127  ls
+  128  cd linux_practice1
+  129  ls
+  130  cd public
+  131  ls
+  132  cp index.php index_bk.php
+  133  ls
+  134  git status
+  135  git add index_bk.php
+  136  git status
+  137  git commit -m '同じディレクトリにindex.phpのコピーをindex_bk.phpを追加'
+  138  git log
+  139  export LESSCHARSET=utf-8
+  140  git log
+  141  git status
+  142  cd /
+  143  ls
+  144  git status
+  145  cd /root
+  146  ls
+  147  git status
+  148  cd server_lesson
+  149  git status
+  150  ls
+  151  cp -r server_lesson/linux_practice1/public tmp
+  152  cp -r linux_practice1/public tmp
+  153  ls
+  154  cd tmp
+  155  ls
+  156  cd /server_lesson
+  157  cd /
+  158  cd root
+  159  cd server_lesson
+  160  ls
+  161  ls linux_practice1
+  162  rm tmp
+  163  y
+  164  ls
+  165  rm -r tmp
+  166  l
+  167  ls
+  168  cd linux_practice1
+  169  ls
+  170  cp -r public tmp
+  171  ls
+  172  ls tmp
+  173  ls public
+  174  git status
+  175  git add tmp
+  176  git status
+  177  git commit -m 'publicのコピー�tmpを��作成'
+  178  git log
+  179  git commit --amend
+  180  git commit --amend -m 'publicのコピ�
+  181  git commit --amend -m'publicのコピー�のtmpを�作成'
+  182  git log
+  183  git commit --amend -m'publicのコピーのtmpを作成'
+  184  ls
+  185  cd tmp
+  186  ls
+  187  rm index_bk.php
+  188  ls
+  189  git status
+  190  git add tmp
+  191  git add index_bk.php
+  192  cd /linux_practice1
+  193  ls /root
+  194  cd /root
+  195  cd server_lesson
+  196  ls
+  197  cd linux_practice1
+  198  git status
+  199  git add tmp
+  200  git add/rm index_bk.php
+  201  git rm $(git ls-files --deleted)
+  202  git status
+  203  git commit -m 'server_lesson/linux_practice1/tmp/index_bk.phpを�削除'
+  204  git log
+  205  git commit --amend 'server_lesson/linux_practice1/tmp/index_bk.phpを削除'
+  206  git log
+  207  git commit --amend 'server_lesson/linux_practice1/tmp/index_bk.phpを�を削除'
+  208  git log
+  209  git commit --amend -m 'server_lesson/linux_practice1/tmp/index_bk.phpを削除'
+  210  git log
+  211  ls
+  212  ls tmp
+  213  cd /root
+  214  ls
+  215  cd server_lesson
+  216  mkdir README.md
+  217  ls
+  218  vi README.md
+  219  :set fenc?
+  220  vi README.md
+  221  vi README.md
+  222  rm README.md
+  223  rm -r README.md
+  224  ls
+  225  touch README.md
+  226  ls
+  227  git status
+  228  vi README.md
+  229  vi README.md
+  230  cat README.md
+  231  ls
+  232  mkdir -p linux_practice2/documents
+  233  ls
+  234  cd linux_practice2
+  235  ls
+  236  cd documents
+  237  ls
+  238  touch gizumo{01..50}.md
+  239  ls
+  240  cd ..
+  241  mkdir trash
+  242  ls
+  243  cd documents
+  244  ls
+  245  ls | grep -E '(02[0-9]|03[0-9]|04[0-9])'
+  246  mv gizumo{20..40} trash
+  247  ..
+  248  ls
+  249  mv gizumo{20..40} trash
+  250  cd trash
+  251  ls
+  252  ..
+  253  ls
+  254  ../..
+  255  ls
+  256  cd /root
+  257  ls
+  258  cd server_lesson
+  259  ls
+  260  ls linux_practice2
+  261  mv documents/gizumo{20..40} trash
+  262  cd trash
+  263  ls
+  264  cd linux_practice2
+  265  ls
+  266  cd trash
+  267  mv documents/gizumo{20..40} gizumo{20..40}
+  268  mv documents/gizumo{20..40}.md gizumo{20..40}
+  269  mv documents/gizumo20.md 
+  270  cd ..
+  271  mv documents/gizumo{20..40}.md gizumo{20..40}
+  272  mv documents/gizumo{20..40}.md trash/
+  273  ls
+  274  cd trash
+  275  ls
+  276  ..
+  277  cat README.md
+  278  cd ../../
+  279  l
+  280  ls
+  281  mkdir linux_practice2/.gitignore
+  282  ls linux_practice2
+  283  cd linux_practice2
+  284  ls
+  285  ls -a
+  286  git status
+  287  git add README.md
+  288  git add ../README.md
+  289  git status
+  290  git commit -m 'このセクションで学んだコマンドをリスト記法で記述'
+  291  git log
+  292  q
+  293  git status
+  294  cd ../../
+  295  ls
+  296  cd server_lesson
+  297  ls
+  298  git status
+  299  git add linux_practice2/
+  300  git status
+  301  git commit -m'linux_practice2/documentsに、gizumo01.md から gizumo50.mdまでのファイルを作成。linux_practice2/trashに、gizumo20.md ~ gizumo40.mdを�を移動'
+  302  git commit --amend -m 'linux_practice2/documentsに、gizumo01.md から gizumo50.mdまでのファイルを作成。linux_practice2/trashに、gizumo20.md ~ gizumo40.md
+を移動'
+  303  git log
+  304  git status
+  305  ls-a
+  306  ls -a
+  307  cd linux_practice2
+  308  ls -a
+  309  vi .gitignore
+  310  rm .gitignore
+  311  rm -r .gitignore
+  312  ls -a
+  313  touch .gitignore
+  314  ls -a
+  315  ls
+  316  vi .gitignore
+  317  vi .gitignore
+  318  cat .gitignore
+  319  history 300
+  320  git status
+  321  ls trash
+  322  add .gitignore
+  323  git add .gitignore
+  324  git commit 
+  325  git commit -m '.gitignoreを追加'
+  326  cd ../..
+  327  ls
+  328  cd server_lesson
+  329  ls
+  330  cd linux_practice2
+  331  history 300 >> exec_command.log
